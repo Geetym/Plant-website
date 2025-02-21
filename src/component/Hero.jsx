@@ -12,23 +12,23 @@ import 'swiper/css/scrollbar';
 const Hero = () => {
   return (
     <Swiper
-    // install Swiper modules
-    modules={[Navigation, Pagination, Scrollbar, A11y]}
-    spaceBetween={50}
-    slidesPerView={3}
-    navigation
-    pagination={{ clickable: true }}
-    scrollbar={{ draggable: true }}
-    onSwiper={(swiper) => console.log(swiper)}
-    onSlideChange={() => console.log('slide change')}
-  >
-    <SwiperSlide> <img src="" alt="" /> </SwiperSlide>
-    <SwiperSlide><img src="" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="" alt="" /></SwiperSlide>
-    {/* <SwiperSlide><img src="" alt="" /></SwiperSlide> */}
-    ...
-  </Swiper>
-  )
-}
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide><img src="https://htmlbeans.com/html/botanical/images/img77.png" alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://htmlbeans.com/html/botanical/images/img78.png" alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://htmlbeans.com/html/botanical/images/img79.png" alt="" /></SwiperSlide>
+      {/* <SwiperSlide>Slide 4</SwiperSlide> */}
+      ...
+    </Swiper>
+  );
+};
 
 export default Hero
