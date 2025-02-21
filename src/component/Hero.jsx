@@ -22,9 +22,9 @@ const Hero = () => {
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log('slide change')}
   >
-    <SwiperSlide><img src="https://htmlbeans.com/html/botanical/images/img78.png" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="https://htmlbeans.com/html/botanical/images/img79.png" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="https://htmlbeans.com/html/botanical/images/img77.png" alt="" /></SwiperSlide>
+    <SwiperSlide> <img src="" alt="" /> </SwiperSlide>
+    <SwiperSlide><img src="" alt="" /></SwiperSlide>
+    <SwiperSlide><img src="" alt="" /></SwiperSlide>
     {/* <SwiperSlide><img src="" alt="" /></SwiperSlide> */}
     ...
   </Swiper>
