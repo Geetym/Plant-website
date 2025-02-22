@@ -126,7 +126,9 @@ const Nav = () => {
               className="h-12"
             />
           </button>
+
           <button>Blog</button>
+          
           <button>Contact</button>
         </div>
 
