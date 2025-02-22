@@ -5,7 +5,6 @@ import Hero from './component/Hero';
 import Blog from './component/Blog';
 
 
-
 const App = () => {
   return (
     <>
