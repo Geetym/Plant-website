@@ -7,7 +7,6 @@ import Blog from './component/Blog';
 
 
 
-
 const App = () => {
   return (
     <>
