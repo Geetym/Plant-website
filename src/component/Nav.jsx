@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import { CiSearch } from "react-icons/ci";
 import { GrFavorite } from "react-icons/gr";
 import { IoCartOutline } from "react-icons/io5";
@@ -126,9 +127,9 @@ const Nav = () => {
               className="h-12"
             />
           </button>
-
+            <link" />
           <button>Blog</button>
-          
+
           <button>Contact</button>
         </div>
 
