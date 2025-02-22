@@ -10,12 +10,7 @@ const App = () => {
         path="/" 
         element={
           <>
-            <Hero />
-            <NewArrivals />
-            <Endofseason />
-            <Castronews />
-            <CustomerBenefits />
-            <Footersection />
+        
 
           </>
         } 
