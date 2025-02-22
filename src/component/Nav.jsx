@@ -127,9 +127,9 @@ const Nav = () => {
               className="h-12"
             />
           </button>
-            <link" />
+              <Link to="/blog">
           <button>Blog</button>
-
+              </ Link>
           <button>Contact</button>
         </div>
 
