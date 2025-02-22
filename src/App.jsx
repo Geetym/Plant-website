@@ -10,7 +10,7 @@ const App = () => {
         path="/" 
         element={
           <>
-          <Nav />
+            <Nav />
 
           </>
         } 
