@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Nav from './component/Nav';
 import Hero from './component/Hero';
+import Blog from './component/Blog';
 
 
 
@@ -15,7 +16,7 @@ const App = () => {
           <>
             <Nav />
             <Hero />          
-            <
+            <Blog
           </>
         } 
       />
