@@ -119,7 +119,10 @@ const Nav = () => {
         {/* Center Section */}
         <div className="flex items-center gap-6 text-lg font-medium">
           <button className="text-green-600">Store</button>
+
+          <Link to={}
           <button>About</button>
+
           <button className="flex justify-center mb-1">
             <img
               src="https://htmlbeans.com/html/botanical/images/logo.png"
@@ -131,7 +134,7 @@ const Nav = () => {
               <Link to="/blog">
           <button>Blog</button>
               </ Link>
-              
+
           <button>Contact</button>
         </div>
 
