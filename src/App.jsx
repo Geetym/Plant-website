@@ -12,6 +12,7 @@ const App = () => {
           <>
             <Nav />
             <Hero />
+            
 
           </>
         } 
