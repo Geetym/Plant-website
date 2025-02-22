@@ -2,7 +2,6 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div>
             <Card className="w-64 rounded-2xl shadow-lg overflow-hidden">
       <img
         src="https://via.placeholder.com/256"
@@ -17,7 +16,6 @@ const Blog = () => {
         </Button>
       </CardContent>
     </Card>
-    </div>
   )
 }
 
