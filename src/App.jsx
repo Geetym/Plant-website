@@ -4,12 +4,26 @@ import Hero from './component/Hero'
 
 const App = () => {
   return (
-    <div>
+    <>
+    <Routes>
+      <Route 
+        path="/" 
+        element={
+          <>
+            <Hero />
+            <NewArrivals />
+            <Endofseason />
+            <Castronews />
+            <CustomerBenefits />
+            <Footersection />
 
-      <Nav />
-      <Hero />
+          </>
+        } 
+      />
+     
 
-    </div>
+    </Routes>
+  </>
   )
 }
 
