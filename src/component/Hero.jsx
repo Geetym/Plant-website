@@ -16,7 +16,7 @@ const Hero = () => {
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         className="w-full h-full"
         spaceBetween={50}
-      slidesPerView={1}
+        slidesPerView={1}
       >
         {/* Slide 1 */}
         <SwiperSlide>
