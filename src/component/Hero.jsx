@@ -22,8 +22,8 @@ const Hero = () => {
         <SwiperSlide>
           <div className="flex flex-col md:flex-row items-center justify-between px-5 md:px-10 h-full">
             <div className="text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold">Plants for Healthy Living</h2>
-              <p className="text-lg my-4">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <h2 className="text-3xl md:text-6xl font-bold">Plants for Healthy Living</h2>
+              <p className="text-xl my-4">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
               <button className="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">
                 Shop Now
               </button>
@@ -40,7 +40,7 @@ const Hero = () => {
         <SwiperSlide>
           <div className="flex flex-col md:flex-row items-center justify-between px-5 md:px-10 h-full">
             <div className="text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold">Fresh Indoor Plants</h2>
+              <h2 className="text-3xl md:text-6xl font-bold">Fresh Indoor Plants</h2>
               <p className="text-lg my-4">Perfect plants for your home and office spaces.</p>
               <button className="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">
                 Shop Now
@@ -58,8 +58,8 @@ const Hero = () => {
         <SwiperSlide>
           <div className="flex flex-col md:flex-row items-center justify-between px-5 md:px-10 h-full">
             <div className="text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold">Natural & Beautiful</h2>
-              <p className="text-lg my-4">Bring nature closer to your living spaces.</p>
+              <h2 className="text-3xl md:text-6xl font-bold">Natural & Beautiful</h2>
+              <p className="text-lg  my-4">Bring nature closer to your living spaces.</p>
               <button className="bg-green-600 text-white py-2 px-6 rounded-full hover:bg-green-700 transition duration-300">
                 Shop Now
               </button>
