@@ -37,7 +37,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="w-full py-4 px-6 bg-white relative">  
+    <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md py-4 px-6">  
       <nav className="flex items-center justify-between">
         {/* Left Section */}
         <div className="flex items-center gap-4 relative">
@@ -119,22 +119,11 @@ const Nav = () => {
         {/* Center Section */}
         <div className="flex items-center gap-6 text-lg font-medium">
           <button className="text-green-600">Store</button>
-
-          <Link to={"/about"}>
-          <button>About</button>
-          </Link>
+          <Link to={"/about"}><button>About</button></Link>
           <button className="flex justify-center mb-1">
-            <img
-              src="https://htmlbeans.com/html/botanical/images/logo.png"
-              alt="Logo"
-              className="h-12"
-            />
+            <img src="https://htmlbeans.com/html/botanical/images/logo.png" alt="Logo" className="h-12" />
           </button>
-
-              <Link to="/blog">
-          <button>Blog</button>
-              </ Link>
-
+          <Link to="/blog"><button>Blog</button></Link>
           <button>Contact</button>
         </div>
 
@@ -147,39 +136,13 @@ const Nav = () => {
             </button>
             {isSearchOpen && (
               <div className="absolute top-12 right-0 bg-white border shadow-md p-2 flex items-center rounded-md w-64">
-                <input
-                  type="text"
-                  className="w-full px-2 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
-                  placeholder="Search..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                />
-                <button
-                  className="text-green-600 font-bold px-2"
-                  onClick={handleSearch}
-                >
-                  Go
-                </button>
+                <input type="text" className="w-full px-2 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Search..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} onKeyDown={(e) => e.key === "Enter" && handleSearch()} />
+                <button className="text-green-600 font-bold px-2" onClick={handleSearch}>Go</button>
               </div>
             )}
           </div>
-
-          {/* Wishlist Button */}
-          <button className="relative">
-            <GrFavorite className="text-xl" />
-            <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
-              1
-            </span>
-          </button>
-
-          {/* Cart Button */}
-          <button className="relative">
-            <IoCartOutline className="text-xl" />
-            <span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
-              2
-            </span>
-          </button>
+          <button className="relative"><GrFavorite className="text-xl" /><span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">1</span></button>
+          <button className="relative"><IoCartOutline className="text-xl" /><span className="absolute -top-2 -right-2 bg-green-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">2</span></button>
         </div>
       </nav>
     </div>
