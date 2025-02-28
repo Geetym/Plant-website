@@ -2,7 +2,7 @@ import { FaLeaf, FaSun, FaWind } from "react-icons/fa";
 
 const WhyChooseUs = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12">
+    <section className="h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12">
       {/* Left Side - Image */}
       <div className="md:w-1/2 flex justify-center">
         <img
@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
            Aperiam aspernatur totam aut a illum neque impedit natus 
            nulla cumque rerum? Maiores sequi animi quia hic harum 
            accusantium veniam fugiat rem.
-          <span className="text-green-600 cursor-pointer"> Learn More</span>
+          <span className="text-green-600 cursor-pointer italic"> Learn More</span>
         </p>
 
         {/* Features */}

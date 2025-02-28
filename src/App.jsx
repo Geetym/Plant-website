@@ -18,6 +18,7 @@ const App = () => {
             <Nav />
             <Hero />      
             <WhyChooseUs />        
+            
           </>
         } 
       />
