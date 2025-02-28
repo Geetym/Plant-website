@@ -5,6 +5,7 @@ import Hero from './component/Hero';
 import Blog from './component/Blog';
 import About from './component/About';
 import WhyChooseUs from './component/WhyChooseUs';
+import Contact from './component/Contact';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       />
       <Route path='/blog' element={<Blog />} />
       <Route path='/about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
     </Routes>
   </>
   )
