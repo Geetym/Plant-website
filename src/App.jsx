@@ -4,6 +4,7 @@ import Nav from './component/Nav';
 import Hero from './component/Hero';
 import Blog from './component/Blog';
 import About from './component/About';
+import WhyChooseUs from './component/WhyChooseUs';
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
           <>
             <Nav />
             <Hero />      
-            
+            <WhyChooseUs
             
           </>
         } 
