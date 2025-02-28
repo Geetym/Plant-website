@@ -17,8 +17,7 @@ const App = () => {
           <>
             <Nav />
             <Hero />      
-            <WhyChooseUs /> 
-            
+            <WhyChooseUs />        
           </>
         } 
       />

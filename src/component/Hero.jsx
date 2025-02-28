@@ -26,6 +26,7 @@ const Hero = () => {
           >
             <div className="text-center md:text-left max-w-2xl">
               <h2 className="text-5xl md:text-7xl font-bold">Plants for Healthy Living</h2>
+              <span className="block w-28 h-1 bg-green-500 mt-2"></span>
               <p className="text-2xl my-6">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
               <button className="bg-green-600 text-white text-xl py-3 px-8 rounded-full hover:bg-green-700 transition duration-300">
                 Shop Now
@@ -47,6 +48,7 @@ const Hero = () => {
           >
             <div className="text-center md:text-left max-w-2xl">
               <h2 className="text-5xl md:text-7xl font-bold">Fresh Indoor Plants</h2>
+              <span className="block w-28 h-1 bg-green-500 mt-2"></span>
               <p className="text-2xl my-6">Perfect plants for your home and office spaces.</p>
               <button className="bg-green-600 text-white text-xl py-3 px-8 rounded-full hover:bg-green-700 transition duration-300">
                 Shop Now
@@ -68,6 +70,7 @@ const Hero = () => {
           >
             <div className="text-center md:text-left max-w-2xl">
               <h2 className="text-5xl md:text-7xl font-bold">Natural & Beautiful</h2>
+              <span className="block w-28 h-1 bg-green-500 mt-2"></span>
               <p className="text-2xl my-6">Bring nature closer to your living spaces.</p>
               <button className="bg-green-600 text-white text-xl py-3 px-8 rounded-full hover:bg-green-700 transition duration-300">
                 Shop Now
